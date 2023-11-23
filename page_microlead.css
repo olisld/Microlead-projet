@@ -1,0 +1,111 @@
+html {
+    width: 1920px;
+    height: 1080px;
+    max-width: max-content;
+    max-height: max-content;
+}
+#titre {
+    margin: 109px 669px 110px;
+}
+#millieu {
+    margin-bottom: 72px;
+    margin-left: 433px;
+}
+#groupe1 {
+    color: #000;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1075px;
+    height: 86px;
+    flex-shrink: 0;
+}
+#groupe2 {
+    color: #000;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1075px;
+    height: 86px;
+    flex-shrink: 0;
+
+}
+#rectangle5 {
+    border-radius: 10px;
+    width: 460px;
+    height: 109px;
+    flex-shrink: 0;
+    background: #000;
+    margin-left: 730px ;
+    
+}
+#rectangle5>p {  /* j'ai donné la meme valeur de hauteur et de largeur au paragraphe que celle du rectangle pour que le texte soit au millieu je n'ai donc pas respecter les valeurs de la maquette;*/ 
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: flex;
+    width: 460px;
+    height: 109px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;   
+}
+#dernier {
+    margin-left: 636px;
+    width: 649px;
+    height: 132px;
+    flex-shrink: 0;
+}
+#dernier_texte {
+    color: #000;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+#ligne-image {
+    margin-left: 105px;
+}
+.image {
+    margin-right: 14px;
+} 
+.image2 {
+ /* J'ai utilisé la position pour pouvoir superposer l'image du cercle avec les photos ce qui ne m'a pas permis de rentré les valeurs exacte donné dans la maquette*/
+    left: 743px;
+}
+.image3 {
+    left: 922px;
+}
+
+.image4 {
+    left: 833px;
+}
+.image5 {
+    left: 1007px;
+}
+.Taille {
+    position: absolute;
+    width: 80px;
+    height: 83px;
+    flex-shrink: 0;
+    stroke-width: 5px;
+    stroke: #1D4C69;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    top: 855px;
+}
+.image6 {
+    left: 1095px;
+}
